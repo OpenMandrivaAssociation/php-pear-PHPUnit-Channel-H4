@@ -1,7 +1,7 @@
 %define prj     PHPUnit-Channel
 %define	name	php-pear-%{prj}-H4
 %define version 1.0
-%define release %mkrel 20100211.1
+%define release %mkrel 20100211.2
 %define peardir %(pear config-get php_dir 2> /dev/null || echo %{_datadir}/pear)
 %define pear_xmldir  %{_libdir}/pear
 
@@ -16,7 +16,7 @@ Source0:        http://pear.phpunit.de/pear.phpunit.de.xml
 BuildArch:      noarch
 BuildRequires:  php-pear >= 5.1.1
 Requires:	php-pear >= 5.1.1
-Provides:	pear-PHPUnit-Channel-H4
+Provides:	PHPUnit-Channel-H4
 
 
 %description
