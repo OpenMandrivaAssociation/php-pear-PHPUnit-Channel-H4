@@ -11,7 +11,7 @@ Release:        %{release}
 Summary:        Adds pear.phpunit.de channel to PEAR
 Group:          System/Libraries
 License:        BSD
-URL:            http://pear.phpunit.de/
+URL:            https://pear.phpunit.de/
 Source0:        http://pear.phpunit.de/pear.phpunit.de.xml
 BuildArch:      noarch
 BuildRequires:  php-pear >= 5.1.1
